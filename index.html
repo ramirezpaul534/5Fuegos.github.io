@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>5 Fuegos</title>
+  <meta name="title" content="5 Fuegos">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./Logo.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/Salsa.jpg">
+  <link rel="preload" as="image" href="./assets/images/Salsa2.png">
+  <link rel="preload" as="image" href="./assets/images/Salsa3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">5 FUEGOS</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+         Ocampo #24, Col Centro, Pénjamo, Gto, 36900, México.
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Horario : 8:00 A.M. a 8:00 P.M.</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+52 469 103 1232</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">5Fuegos@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/Logo.png" width="200" height="" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Inicio</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Products" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Productos</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Recetas1" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Recetas</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./sub/subindex.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Acerca De Nosotros</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Contacto" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contacto</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Restaurant St, Delicious City, <br>
+            London 9578, UK
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +88-123-123456
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Carrito De Compra</span>
+
+        <span class="text text-2" aria-hidden="true">Carrito De Compra</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/Salsa.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">SLOGAN</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              "Haz Vibrar Tu Paladar" <br>
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Deléitate con nuestros sabores únicos.
+            </p>
+
+            <a href="#Products" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Nuestros Productos</span>
+
+              <span class="text text-2" aria-hidden="true">Nuestros Productos</span>
+            </a>
+
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/Salsa2.png" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Experiencia Inolvidable</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Sabores que encantan, <br>
+              momentos que perduran.
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              La clave para convertir lo ordinario en extraordinario.
+            </p>
+
+            <a href="#Products" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Nuestros Productos</span>
+
+              <span class="text text-2" aria-hidden="true">Nuestros Productos</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/Salsa3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">DELICIOSO RECUERDO</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Donde Cada Sabor<br>
+              Cuenta Una Historia.
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Que tu vida vibre con sabor.
+            </p>
+
+            <a href="#Products" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Nuestros Productos</span>
+
+              <span class="text text-2" aria-hidden="true">Nuestros Productos</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/Logo_Slogan.PNG" width="80" height="80" alt="booking icon">
+
+          <span class="label-2 text-center span"></span>
+        </a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">NUESTRA HISTORIA</p>
+
+            <h2 class="headline-1 section-title" style="text-align: center;">El Sabor De Los Sueños.</h2>
+
+            <p class="section-text" style="text-align: justify;">
+              Hace dos años, con un único sueño y propósito en mente: hacer vibrar el paladar de las personas, nos entregamos por completo a hacer realidad ese sueño. Dedicamos tiempo y esfuerzo a la creación de nuestros productos, infundiendo esencia, pasión y cariño. A pesar de los retos y dificultades que se presentaron en el camino, no nos importó, pues sabíamos que para crear, primero hay que soñar.
+            </p>
+
+            <a href="./sub/subindex.html" class="btn btn-primary">
+              <span class="text text-1">Leer Más</span>
+
+              <span class="text text-2" aria-hidden="true">Leer Más</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+<!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-label="feature">
+        <div class="container">
+
+          <div class="grid-list">
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-1.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Envío Gratis.</h3>
+
+                  <p class="card-text">Pedido superior a $1,000</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-2.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Pago Seguro.</h3>
+
+                  <p class="card-text">Pago 100% seguro.</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-3.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Mejor Precio.</h3>
+
+                  <p class="card-text">Bajo costo garantizado.</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/feature-4.png" width="100" height="100" loading="lazy" alt="feature icon"
+                    class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Garantía.</h3>
+
+                  <p class="card-text">Devolución dentro de 30 días.</p>
+                </div>
+
+              </div>
+            </li>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #FEATURED COLLECTION
+      -->
+      <section class="section featured" aria-label="featured collection" id="Products">
+        <div class="container">
+
+          <h2 class="h2 section-title">Productos</h2>
+
+          <p class="section-text">
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="product-card">
+
+                <span class="card-badge">New</span>
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/empaque1.png" width="384" height="480" loading="lazy" alt="Black Night"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Salsa Deshidratada - Mango Habanero</a>
+                  </h3>
+
+                  <data class="card-price" value="80">$29.99</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/empaque2.png" width="384" height="480" loading="lazy"
+                    alt="About The First Night" class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Salsa Deshidratada - Tamarindo Habanero</a>
+                  </h3>
+
+                  <data class="card-price" value="19">$29.99</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/empaque3.png" width="384" height="480" loading="lazy" alt="Open The Sky"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Salsa Deshidratada - Limón Habanero</a>
+                  </h3>
+
+                  <data class="card-price" value="80">$29.99</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/empaque4.png" width="384" height="480" loading="lazy" alt="Book Hard Cover"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Salsa Deshidratada - Durazno Habanero</a>
+                  </h3>
+
+                  <data class="card-price" value="55">$29.99</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/empaque5.png" width="384" height="480" loading="lazy"
+                    alt="The Big Book Of Science" class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Salsa Deshidratada - Piña Habanero</a>
+                  </h3>
+
+                  <data class="card-price" value="100">$29.99</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/empaque6.png" width="384" height="480" loading="lazy" alt="By The Air"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Salsa Deshidratada - Especial 5 Fuegos</a>
+                  </h3>
+
+                  <data class="card-price" value="89">$29.99</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/empaque7.png" width="384" height="480" loading="lazy"
+                    alt="Murdering Last Year" class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Salsa Deshidratada - Tomate Verde</a>
+                  </h3>
+
+                  <data class="card-price" value="34">$26.99</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 384; --height: 480;">
+                  <img src="./assets/images/empaque8.png" width="384" height="480" loading="lazy" alt="Stay Healthy"
+                    class="img-cover">
+
+                  <div class="card-action">
+
+                    <button class="action-btn" aria-label="quick view" title="Quick View">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to wishlist" title="Add to Wishlist">
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="compare" title="Compare">
+                      <ion-icon name="repeat-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="action-btn" aria-label="add to cart" title="Add to Cart">
+                      <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                  </div>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Salsa Deshidratada - Chipotle</a>
+                  </h3>
+
+                  <data class="card-price" value="67">$26.99</data>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service" id="Recetas1"> 
+        <div class="container"> 
+
+          <p class="section-subtitle label-2">Fusiones Sublimes</p>
+
+          <h2 class="headline-1 section-title">Recetas</h2>
+
+          <p class="section-text">
+            Algunas recetas preparadas con nuestros productos.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/Boneless.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="./assets/images/R1.png">Boneless Tamarindo Habanero</a>
+                  </h3>
+
+                  <a href="./assets/images/R1.png" class="btn-text hover-underline label-2">Ver Receta</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/Camaron.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="./assets/images/R2.png">Camarón Con Mango Habanero</a>
+                  </h3>
+
+                  <a href="./assets/images/R2.png" class="btn-text hover-underline label-2">Ver Receta</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/Alitas.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="./assets/images/R3.png">Alitas Piña Habanero</a>
+                  </h3>
+
+                  <a href="./assets/images/R3.png" class="btn-text hover-underline label-2">Ver Receta</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            Una experiencia de compra simplemente encantadora. Sus productos me conquistaron desde el primer bocado. ¡Impresionante!.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson"
+              class="img">
+
+            <p class="label-2 profile-name">Ramiro Salazar</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center">Orden Online</h2>
+
+              <p class="form-text text-center">
+                Llámanos a <a href="tel:+88123123456" class="link">+52 469-103-1232</a>
+                o ordena desde aquí.
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Tu Nombre" autocomplete="off" class="input-field">
+                <input type="text" name="name" placeholder="Dirección" autocomplete="off" class="input-field">
+                <input type="text" name="name" placeholder="Correo" autocomplete="off" class="input-field">
+                <input type="tel" name="phone" placeholder="Número De Teléfono" autocomplete="off" class="input-field">
+
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="1-person">Mango Habanero</option>
+                    <option value="2-person">Tamarindo Habanero</option>
+                    <option value="3-person">Limón Habanero</option>
+                    <option value="4-person">Durazno Habanero</option>
+                    <option value="5-person">Piña Habanero</option>
+                    <option value="6-person">Especial 5 Fuegos</option>
+                    <option value="7-person">Tomate Verde</option>
+                    <option value="8-person">Chipotle</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="08:00am">1 Unidad</option>
+                    <option value="09:00am">2 Unidades</option>
+                    <option value="010:00am">3 Unidades</option>
+                    <option value="011:00am">4 Unidades</option>
+                    <option value="012:00am">5 Unidades</option>
+                    <option value="01:00pm">6 Unidades</option>
+                    <option value="02:00pm">7 Unidades</option>
+                    <option value="03:00pm">8 Unidades</option>
+                    <option value="04:00pm">9 Unidades</option>
+                    <option value="05:00pm">10 Unidades</option>
+                    <option value="06:00pm">11 Unidades</option>
+                    <option value="07:00pm">12 Unidades</option>
+                    <option value="08:00pm">13 Unidades</option>
+                    <option value="09:00pm">14 Unidades</option>
+                    <option value="10:00pm">15 O Más Unidades</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <textarea name="message" placeholder="Mensaje" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Enviar</span>
+
+                <span class="text text-2" aria-hidden="true">Enviar</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')" id="Contacto">
+
+              <h2 class="headline-1 text-center">Contáctanos</h2>
+
+              <p class="contact-label">Teléfono</p>
+
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+52 469-103-1232</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Ubicación</p>
+
+              <address class="body-4">
+                Ocampo #24, Col Centro, Pénjamo, Gto, 36900, México.<br>
+                
+              </address>
+
+              <p class="contact-label">Horario</p>
+
+              <p class="body-4">
+                Lunes a Sabado <br>
+                8:00 A.M. - 11:00 A.M.
+                <br>1:00 P.M. - 8:00 P.M.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">¿Por qué elegirnos?</p>
+
+          <h2 class="headline-1 section-title">Nuestras Fortalezas</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+                <h3 class="title-2 card-title"></h3>
+                <h3 class="title-2 card-title">Sabores Unicos.</h3>
+
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title"></h3>
+                <h3 class="title-2 card-title">Como una salsa recién hecha.</h3>
+
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title"></h3>
+                <h3 class="title-2 card-title">Preparado fácil.</h3>
+
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title"></h3>
+                <h3 class="title-2 card-title">Costo bajo</h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/Logo.png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Ocampo #24, Col Centro, Pénjamo, Gto, 36900, México.
+          </address>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">5Fuegos@gmail.com</a>
+
+          <a href="tel:+88123123456" class="body-4 contact-link">Teléfono : +52 469 103 1232</a>
+
+          <p class="body-4">
+            Horario : 8:00 A.M. a 8:00 P.M.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Recibe Noticias Y Ofertas.</p>
+
+          <p class="label-1">
+            Suscríbete y obtén <span class="span">20% de descuento.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Tu email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Suscribirse</span>
+
+              <span class="text text-2" aria-hidden="true">Suscribirse</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Inicio</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Productos</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Recetas</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Acerca De Nosotros</a>
+          </li>
+
+          <li>
+            <a href="#Contacto" class="label-2 footer-link hover-underline">Contacto</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 5 Fuegos. All Rights Reserved | Creado por Anthony Ramírez. <a href=""
+            target="_blank" class="link"></a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

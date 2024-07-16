@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>5 Fuegos</title>
+  <meta name="title" content="5 Fuegos">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./Logo.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/Salsa.jpg">
+  <link rel="preload" as="image" href="./assets/images/Salsa2.png">
+  <link rel="preload" as="image" href="./assets/images/Salsa3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">5 FUEGOS</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+         Ocampo #24, Col Centro, Pénjamo, Gto, 36900, México.
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Horario : 8:00 A.M. a 8:00 P.M.</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+52 469 103 1232</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">5Fuegos@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/Logo.png" width="200" height="" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Inicio</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Products" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Productos</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Acerca De Nosotros</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Nuestra Empresa</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contacto</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Restaurant St, Delicious City, <br>
+            London 9578, UK
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +88-123-123456
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Carrito De Compra</span>
+
+        <span class="text text-2" aria-hidden="true">Carrito De Compra</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">NUESTRA HISTORIA</p>
+
+            <h2 class="headline-1 section-title" style="text-align: center;">El Sabor De Los Sueños.</h2>
+
+            <p class="section-text" style="text-align: justify;">
+              Hace dos años, con un único sueño y propósito en mente: hacer vibrar el paladar de las personas, nos entregamos por completo a hacer realidad ese sueño. Dedicamos tiempo y esfuerzo a la creación de nuestros productos, infundiendo esencia, pasión y cariño. A pesar de los retos y dificultades que se presentaron en el camino, no nos importó, pues sabíamos que para crear, primero hay que soñar.
+            </p>
+
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Trayectoria</p>
+
+            <h2 class="headline-1 section-title">Camino hacia el éxito</h2>
+
+            <p class="section-text" style="text-align: justify;">
+              5 Fuegos, nacido de un sueño y alimentado por la pasión, está aquí para encender tus sentidos. Creamos sabores únicos y cautivadores que se fusionan a la perfección con cada ocasión. Nuestro objetivo es brindarte una experiencia culinaria inolvidable.
+
+            <p class="section-text" style="text-align: justify;">
+              En nuestro camino, enfrentamos desafíos como la falta de recursos económicos para las pruebas, la escasez de equipos y la falta de espacios para experimentar. Pero cada obstáculo fue superado gracias al esfuerzo de nuestro equipo. Trabajamos medio tiempo para obtener el dinero necesario, conseguimos préstamos de maquinaria de alguien que creyó en nuestro proyecto, y resolvimos la falta de espacio utilizando nuestros propios hogares. Seguimos creciendo porque creemos en nosotros mismos.
+            </p>
+
+
+            <a href="#Conoce" class="btn btn-primary">
+              <span class="text text-1">Conócenos</span>
+
+              <span class="text text-2" aria-hidden="true">Conócenos</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">MISIÓN</p>
+
+            <p class="section-text" style="text-align: justify;">
+              5 fuegos, somos una empresa dedicada a la elaboración de salsas deshidratadas en polvo de alta calidad y sabor excepcional, brindando opciones únicas y exóticas a nuestros clientes. Nos esforzamos por ser líderes en el mercado de las salsas, proporcionando productos prácticos, saludables y convenientes que mantengan la esencia del sabor de una salsa recién hecha. Buscamos satisfacer las necesidades y preferencias de nuestros consumidores, superando las expectativas y ofreciendo una experiencia culinaria excepcional.
+            </p>
+
+
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">VISIÓN</p>
+
+            <p class="section-text" style="text-align: justify;">
+              Ser líderes en el mercado de salsas deshidratadas, ofreciendo productos de alta calidad, innovadores y con sabores exóticos que satisfagan las necesidades y preferencias de los consumidores. Queremos ser reconocidos como una marca confiable y líder en la industria, destacándonos por nuestra practicidad, durabilidad y excelente sabor..
+
+            </p>
+
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">VALORES</p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Calidad</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Ofrecer productos de calidad, hechos con ingredientes frescos.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Innovación</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Sabor a una salsa recién hecha.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Satisfacción al cliente</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Superar las expectativas, escuchar sus necesidades y preferencias.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul> 
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="Conoce">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Paul Anthony Benavides Ramírez.</p>
+            <p class="section-subtitle label-2">Director Ejecutivo.</p>
+
+
+            <p class="section-text" style="text-align: justify;">
+              Desarrolla funciones de contabilidad y finanzas ya que posee la destreza de maneja el nivel económico de la empresa; además se encarga de funciones de administración, ventas y dirección, esto dado a su facilidad de liderazgo y de conocimientos y manejo en las áreas, se destaca por ser inteligente, manejo de las habilidades blandas, tener don de mando e iniciativa.
+            </p>
+
+
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/Paul.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Johana Guadalupe Castillo Campos.</p>
+            <p class="section-subtitle label-2">Directora Ejecutiva.</p>
+
+
+            <p class="section-text" style="text-align: justify;">
+              Desempeña funciones de marketing, recursos humanos y logística; sus funciones fueron seleccionadas con base a las habilidades que muestra tales como inteligencia, creatividad al momento de solucionar conflictos, manejo de las habilidades blandas, comunicación asertiva, conocimientos acerca de las áreas.
+            </p>
+
+
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/Johana.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+ 
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/Logo.png" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Ocampo #24, Col Centro, Pénjamo, Gto, 36900, México.
+          </address>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">5Fuegos@gmail.com</a>
+
+          <a href="tel:+88123123456" class="body-4 contact-link">Teléfono : +52 469 103 1232</a>
+
+          <p class="body-4">
+            Horario : 8:00 A.M. a 8:00 P.M.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Recibe Noticias Y Ofertas.</p>
+
+          <p class="label-1">
+            Suscríbete y obtén <span class="span">20% de descuento.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Tu email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Suscribirse</span>
+
+              <span class="text text-2" aria-hidden="true">Suscribirse</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Inicio</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Productos</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Acerca De Nosotros</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Nuestra Empresa</a>
+          </li>
+
+          <li>
+            <a href="#Contacto" class="label-2 footer-link hover-underline">Contacto</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 5 Fuegos. All Rights Reserved | Creado por Anthony Ramírez. <a href=""
+            target="_blank" class="link"></a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
